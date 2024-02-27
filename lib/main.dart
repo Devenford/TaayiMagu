@@ -66,7 +66,7 @@ class _MainAppState extends State<MainApp> {
         '/caretaker': (context) => const CareTakerScreen(),
         '/home': (context) => HomeScreen(setLocale: setLocale),
         '/complaints': (context) => const ComplaintScreen(),
-        '/faq': (context) => const FAQScreen(),
+        '/faq': (context) => FAQScreen(setLocale: setLocale),
         '/profile': (context) => const ProfileScreen(),
         '/list': (context) => const ListScreen(),
         '/ANCdelay': (context) => const DelayScreen(),

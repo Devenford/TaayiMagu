@@ -128,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: ButtonContainer(
                           icon: Icons.notification_important_rounded,
                           text: localizations.key5, // 'Emergency'
-                          color: Colors.deepPurple),
+                          color: Colors.redAccent),
                     ),
                     GestureDetector(
                       onTap: () {
@@ -172,7 +172,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   localizations.key9, // 'Important Contact Number'
                   style: theme.textTheme.bodyMedium?.copyWith(
                     fontWeight: FontWeight.w900,
-                    color: Colors.orange.shade200,
+                    color: Colors.white,
                     fontSize: 15,
                   ),
                   textAlign: TextAlign.center,
