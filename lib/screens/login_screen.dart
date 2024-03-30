@@ -75,7 +75,7 @@ class LoginScreen extends StatelessWidget {
                   minimumSize: const Size.fromHeight(50),
                 ),
                 onPressed: () {
-                  Navigator.pushNamed(context, '/home'); //caretaker or home
+                  Navigator.pushNamed(context, '/caretaker'); //caretaker or home
                 },
                 child: Text(
                   localizations.key21, // 'Login'
